@@ -1,0 +1,15 @@
+In this assignment, i have created three classes in separate packages - Data, Singleton, and Main.
+
+The variableClass class contained an int and a char member variable that were not initialized.
+We added two methods, one to print these variables and another to print two local variables without initializing them.
+I also created a constructor to initialize the member variables.
+
+The MySingleton class contained a non-static String member variable.
+I added a static method that takes a String as a parameter and initializes the member variable and returns the object of that class.
+I also added a non-static method to print the String.
+
+The Main class created objects of the variableClass and MySingleton classes and called their respective methods to print the values.
+The Main class called the static method of the Singleton class to initialize the member variable and
+then called the non-static method to print the String.
+
+Overall, this assignment helped to understand the concept of default initialization in Java and the Singleton design pattern.
